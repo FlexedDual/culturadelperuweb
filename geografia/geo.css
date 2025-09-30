@@ -1,0 +1,18 @@
+body{
+    background-image: url(imagenes/geof.png);
+    font-family: Institute;
+    background-size: cover;
+}
+
+.map{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.introText2{
+    font-size: 30pt;
+    line-height: 1.5;
+    text-align: center;
+}
