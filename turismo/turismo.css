@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Institute;
+    src: url("lt_institute.otf");
+}
+
+body{
+    background-image: url(imagenes/alpaca.jpg);
+    font-family: Institute;
+    background-size: cover;
+}
