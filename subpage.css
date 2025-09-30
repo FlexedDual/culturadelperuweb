@@ -1,0 +1,48 @@
+.infoImg{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.introText{
+    font-size: clamp(1rem, 2.5vw, 30pt);
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.infoDer{
+    display: flex;
+    flex-direction: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-right: 5%;
+    margin-left: 2%;
+    text-align: left;
+}
+
+.infoIzq{
+    display: flex;
+    flex-direction: flex-end;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 5%;
+    margin-right: 2%;
+    text-align: right;
+}
+
+.subtitle {
+    font-size: clamp(1.5rem, 4vw, 40pt);
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.infoText {
+    font-size: clamp(1rem, 2vw, 20pt);
+    line-height: 1.5;
+}
+
+.infoContent{
+    flex: 1;
+    min-width: 250px;
+}
